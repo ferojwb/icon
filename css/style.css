@@ -1,0 +1,115 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    fix{
+        overflow: hidden;
+    }
+
+    .container{
+        width: 70%;
+        margin: auto;
+    }
+    .logo{
+        width: 40%;
+        display: inline-block;
+    }
+        
+    .logo a{
+        font-size: 30px;
+        line-height: 45px;
+        text-decoration: none;
+        color: #9F2120 ;
+        font-family: 'Shizuru', cursive;
+    }
+    .menuarea{
+    width: 30%;
+    float: right;
+    }
+    .menuarea ul{
+        list-style: none;
+    }
+    .menuarea ul li{
+        display: inline-block;
+
+    }
+
+    .menuarea ul li a{
+        line-height: 45px;
+        text-decoration: none;
+        padding: 10px;
+        
+    }
+    .menuarea ul li a:hover{
+        color: red;
+        background: black;
+        
+
+    }
+    .fakacolor{
+        height: 150px;
+        background: #FFB600;
+    }
+    .slogan{
+        background-color: #5AB9C1 ;
+        }
+    .slogan h2{
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        margin-top: 30px;
+        }
+    .gol{
+         height: 13px;
+         width: 13px;
+         border-radius: 50%;
+         border: 2px solid white;
+         margin: auto;
+         position: relative;
+         
+    }
+    .gol::before{
+       content: ""; 
+       background: white; 
+       height: 2px;
+       width: 250px;
+       position: absolute;
+       top: 4px;
+       right: 15px;
+    }
+    .gol::after{
+        content: ""; 
+        background: white; 
+        height: 2px;
+        width: 250px;
+        position: absolute;
+        top: 4px;
+        left: 15px;
+     }
+     .slogan p{
+         color: white;
+         text-align: center;
+         width: 70%;
+         padding-top: 48;
+         margin: auto;
+         padding-bottom: 30px;
+     }
+     .slogan a{
+         color: white;
+         border: 2px solid white;
+         padding: 10px;
+         text-align: center; 
+         text-decoration: none;
+
+     }
+     .mb{
+        margin-bottom: 48px;
+     }
+     .tc{
+         text-align: center;
+     }
+
+    .fakacolor{
+        height: 150px;
+        background: #FFB600;
+    }
